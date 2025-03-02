@@ -29,7 +29,7 @@
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=Devan019&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=Devan019&theme=dark&hide_border=false)<br/>
-![]([https://github-readme-stats.vercel.app/api/top-langs/?username=Devan019&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact](https://github-readme-stats.vercel.app/api/top-langs/?username=Devan019&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=20))
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Devan019&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact&langs_count=20)
 
 ## 🏆 GitHub Trophies:
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=devan019" alt="devan019" /></a> </p>
