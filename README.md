@@ -17,15 +17,15 @@ const devan = {
     pronouns: "He/Him",
     location: "Nadiad, Gujarat, India 🇮🇳",
     education: "B.Tech CE @ Dharmsinh Desai University",
-    currentCPI: "8.43",
+    currentCPI: "8.39",
     currentFocus: "Full Stack Development & AI/ML",
-    askMeAbout: ["Web Dev", "AI/ML", "Problem Solving"],
+    askMeAbout: ["Web Dev", "Applied AI", "Problem Solving"],
     technologies: {
         frontEnd: ["Next.js", "React", "TypeScript", "Three.js"],
-        backEnd: ["Spring Boot", "Node.js", "Express.js", "Django"],
-        ai_ml: ["LLM", "LangChain", "PyTorch", "Transformers"],
+        backEnd: ["Spring Boot", "Node.js", "Express.js", "Fastapi"],
+        ai: ["LLM", "GenAI", "RAG"],
         databases: ["PostgreSQL", "MongoDB", "MySQL", "Redis"],
-        cloud: ["Docker", "Vercel", "Railway", "Google Cloud"]
+        cloud: ["Docker", "Vercel", "Railway", "AWS"]
     },
     funFact: "Won Consolation Prize at Holbox 2025 hackathon! 🏆"
 };
@@ -138,38 +138,35 @@ const devan = {
 
 ## 🚀 **Featured Projects**
 
-### 🎥 **ZennVid** - *AI-Powered Video Creation Platform*
-[![Demo](https://img.shields.io/badge/🚀_Live_Demo-FF6B6B?style=for-the-badge)](https://youtu.be/xQMNkiQtlxM) [![Source Code](https://img.shields.io/badge/📂_Source_Code-4ECDC4?style=for-the-badge)](https://github.com/Devan019/ZennVid)
+### 💻 **DevPro** - *Backend Engineering Practice Platform*
+[![Live](https://img.shields.io/badge/🚀_Live-4CAF50?style=for-the-badge)](https://devpro-labs.tech) [![Source Code](https://img.shields.io/badge/📂_GitHub-FF9800?style=for-the-badge)](https://github.com/devpro-labs) [![Report](https://img.shields.io/badge/📄_Report-4285F4?style=for-the-badge)](https://docs.google.com/document/d/19eVWXFpDUEZSSPOKhBGtmiT0GAYz32ZJixNMqXRIWIk/edit?usp=sharing)
 
-**Tech Stack:** Next.js, Express, TypeScript, MongoDB, Python, LLM, Cloudinary
+**Tech Stack:** Next.js, TypeScript, Clerk, Java, Spring Boot, PostgreSQL, Docker, Traefik, Redis, Consul, API Gateway, AWS, GitHub Actions
 
-- 🎭 Integrated **SadTalker** for realistic lip-sync technology
-- 🧠 **Gemini AI** for intelligent script and image generation
-- 🗣️ **XTTS & Edge-TTS** for advanced voice synthesis
-- 🎙️ **Whisper** for accurate speech recognition
-- 🎬 **FFmpeg** for robust video processing pipeline
-- ☁️ **Cloudinary** for scalable media storage
-- 🔐 **OAuth** implementation for secure user authentication
+- 🧩 Built a **backend engineering practice platform** where developers solve real-world challenges with isolated code execution, database integration, and automated evaluation.
+- 🐳 Engineered a **secure execution engine** using Docker sandboxing, Redis queues, and distributed workers for asynchronous code execution and scalable task processing.
+- ⚙️ Designed a **Spring Boot microservices architecture** with Consul service discovery, API Gateway routing, centralized authentication, rate limiting, and WebSocket-based real-time log streaming.
+- ☁️ Deployed and operated containerized services using **AWS and Traefik**, with automated deployments through **GitHub Actions** and production-oriented traffic management.
 
-### 🎓 **CognitAI** - *Intelligent Learning Platform*
-[![Live Demo](https://img.shields.io/badge/🌐_Live-4CAF50?style=for-the-badge)](https://ai-learning-platform-zeta.vercel.app/) [![Source Code](https://img.shields.io/badge/📂_GitHub-FF9800?style=for-the-badge)](https://github.com/Devan019/AI-learning-platform)
+### 🎥 **ZennVid** - *AI Video Generation Platform*
+[![Live](https://img.shields.io/badge/🚀_Live-4CAF50?style=for-the-badge)](https://zennvid.tech) [![Source Code](https://img.shields.io/badge/📂_GitHub-FF9800?style=for-the-badge)](https://github.com/Devan019/ZennVid)
 
-**Tech Stack:** Spring Boot, Spring AOP, React, PostgreSQL, Gemini, Three.js, Razorpay
+**Tech Stack:** Next.js, Express.js, TypeScript, MongoDB, Redis, BullMQ, Cloudflare R2, Hugging Face, Razorpay
 
-- 🤖 **AI-powered learning** with personalized course recommendations
-- 📝 **Adaptive quizzes** that adjust to user performance
-- 💬 **Intelligent chatbot** assistance for learning support
-- 💳 **Credit-based access** system with integrated payments
-- 👥 **Role-based dashboards** for different user types
-- 🔒 **OTP authentication** for enhanced security
+- 🎬 Developed a full-stack **AI video generation platform** supporting script-to-video creation, AI voice synthesis, payment-based credits, and social content sharing.
+- ⚡ Designed an **event-driven backend** using Redis, BullMQ, SSE, and webhooks for long-running AI jobs, real-time progress tracking, and payment lifecycle events.
+- ☁️ Built a production-ready **media pipeline** with Cloudflare R2 and CDN delivery for scalable video and asset storage.
+- 🔐 Implemented secure authentication, rate limiting, optimized asset management, and **Razorpay-based credit payments**.
 
-### 🎯 **Intellicruit** - *AI-Powered Hiring Platform* 🏆
-*Consolation Prize Winner - Holbox 2025*
+### 🤖 **Jarvis** - *Real-Time Agentic Voice Assistant*
+[![Demo](https://img.shields.io/badge/🎬_Demo-FF6B6B?style=for-the-badge)](https://github.com/user-attachments/assets/2e0f5fbe-548a-4c71-86f0-30315431a5e4) [![Source Code](https://img.shields.io/badge/📂_GitHub-FF9800?style=for-the-badge)](https://github.com/Devan019/Jarvis)
 
-- 🚀 Revolutionizing recruitment with AI-powered talent acquisition
-- ⚡ Streamlined hiring process for faster candidate matching
-- 🎨 Full-stack development with modern UI/UX design
-- 🤖 FastAPI integration for ML model deployment
+**Tech Stack:** Next.js, FastAPI, Python, TypeScript, WebSockets, Deepgram, Groq, Edge-TTS, Three.js, Agentic AI
+
+- 🎙️ Developed a real-time **multimodal AI agent** combining speech recognition, LLM reasoning, tool calling, and voice synthesis to perform user-requested actions.
+- ⚡ Architected a **streaming voice pipeline** using Deepgram STT, WebSockets, GPT-OSS-120B, and Edge-TTS for context-aware, low-latency conversations.
+- 🧠 Implemented an **agent runtime** with tool orchestration and state management for autonomous multi-step actions.
+- 🔌 Integrated tools including **Spotify, YouTube, WhatsApp, Google Meet, weather services, and browser automation**.
 
 ---
 
@@ -179,7 +176,6 @@ const devan = {
 
 [![CodeChef](https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white)](https://www.codechef.com/users/devanchauhan01)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://www.leetcode.com/devanchauhan012)
-[![Codeforces](https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white)](https://codeforces.com/profile/devanchauhan012)
 [![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/devanchauhan012)
 [![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-298D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://auth.geeksforgeeks.org/user/devancha4k6u)
 
